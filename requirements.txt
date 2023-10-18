@@ -1,0 +1,12 @@
+# Specific required packages for the Telegram Message Search App
+telethon
+torch
+transformers
+faiss-cpu
+
+# Additional packages for mundane things
+numpy
+scipy
+pandas
+networkx
+tqdm

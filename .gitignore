@@ -1,0 +1,9 @@
+
+# Ignore SQLite database
+telegram_scrape_search/data/*.db
+# Ignore database configuration
+config/database_config.py
+# Ignore Python bytecode files
+__pycache__/
+# Ignore environment-specific settings
+*.env
