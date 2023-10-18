@@ -14,6 +14,14 @@ The Telegram Message Search App is a Python-based tool that enables users to cra
   - **Normal Search**: A basic text search for finding messages relevant to a query.
   - **Vector Search**: Utilizes vector embeddings to find semantically similar messages to a given query.
 
+- TODO: **Channels Graph**: The application uses the NetworkX library to create a graph of channels and their relationships. The graph is stored in a GEXF file for easy visualization using Gephi.
+
+- **Toxicity Score**: The application uses the Perspective API to add a toxicity score to each message that is longer than 50 characters. The score is a float between 0 and 1, where 0 is not toxic and 1 is very toxic.
+
+- TODO: **Language Detection**: The application uses the XXXX API to add a language tag to each message.
+
+
+
 ## Structure
 
 The application is organized into several key components:
